@@ -23,9 +23,11 @@ import { ContactComponent } from './contact/contact.component';
     CurriculumVitaeComponent,
     ProjectsComponent,
     ReferencesComponent,
-    ContactComponent
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {}
+export class AppComponent {
+  currentYear: number = new Date().getFullYear();
+}
