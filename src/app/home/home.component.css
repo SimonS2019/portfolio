@@ -1,0 +1,54 @@
+/* Hero Section */
+.hero-section {
+    background-color: #212529;
+    /* Dark Gray */
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+
+    /* Subtle Background Gradient */
+    background: linear-gradient(to bottom, #212529, #1B1F3B);
+
+    /* Hero Content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0DCAF0;
+    /* Neon Blue */
+    margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
