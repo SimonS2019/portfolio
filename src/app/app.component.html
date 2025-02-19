@@ -1,17 +1,31 @@
 <ngb-alert [dismissible]="false">
     <strong>Warning!</strong> Better check yourself, you're not looking too good.
 </ngb-alert>
-<!-- The abvoe is a test for ng-bootstrap, Which will be removed later. -->
+<!-- The above is a test for ng-bootstrap, Which will be removed later. -->
 
 <div class="page-content">
     <app-header></app-header>
-    <app-home></app-home>
-    <app-about></app-about>
-    <app-skills></app-skills>
-    <app-curriculum-vitae></app-curriculum-vitae>
-    <app-projects></app-projects>
-    <app-references></app-references>
-    <app-contact></app-contact>
+    <section id="home">
+        <app-home></app-home>
+    </section>
+    <section id="about">
+        <app-about></app-about>
+    </section>
+    <section id="skills">
+        <app-skills></app-skills>
+    </section>
+    <section id="curriculum-vitae">
+        <app-curriculum-vitae></app-curriculum-vitae>
+    </section>
+    <section id="projects">
+        <app-projects></app-projects>
+    </section>
+    <section id="references">
+        <app-references></app-references>
+    </section>
+    <section id="contact">
+        <app-contact></app-contact>
+    </section>
     <footer class="footer">
         <p> Copyright © 2025-<span>{{currentYear}}</span> By Simon Shen.</p>
     </footer>
