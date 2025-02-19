@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -15,7 +14,6 @@ import { ContactComponent } from './contact/contact.component';
   standalone: true,
   imports: [
     RouterOutlet,
-    NgbAlertModule,
     HeaderComponent,
     HomeComponent,
     AboutComponent,
