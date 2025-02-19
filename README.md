@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
 
+## Recommended Node Version
+
+This app is suggested to be used with Node version 18.13.0. Run `nvm use 18.13.0` to switch to this version.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -13,6 +17,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Build Your Angular App for GitHub Pages
+
+Run `ng build --configuration production --base-href "/portfolio/"` to build the project for GitHub Pages.
+
+## Deploy to GitHub Pages
+
+Run `npx angular-cli-ghpages --dir=dist/portfolio/browser` to deploy the project to GitHub Pages.
 
 ## Running unit tests
 
