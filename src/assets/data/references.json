@@ -1,12 +1,16 @@
 [
   {
-    "name": "John Doe",
-    "position": "Senior Developer at XYZ Company",
-    "email": "john.doe@example.com"
+    "name": "Alice Johnson",
+    "position": "Lead Engineer",
+    "company": "Tech Innovators Inc.",
+    "image": "/assets/images/alice.jpg",
+    "content": "Alice is a highly skilled engineer with a knack for solving complex problems."
   },
   {
-    "name": "Jane Smith",
-    "position": "Team Lead at ABC Tech",
-    "email": "jane.smith@example.com"
+    "name": "Bob Williams",
+    "position": "Project Manager",
+    "company": "Creative Solutions Ltd.",
+    "image": "/assets/images/bob.jpg",
+    "content": "Bob has a proven track record of successfully managing large-scale projects."
   }
 ]
