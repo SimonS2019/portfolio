@@ -1,0 +1,120 @@
+/* Curriculum Vitae Section */
+.cv-section {
+    background-color: #212529; /* Dark Gray */
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0DCAF0; /* Neon Blue */
+    margin-bottom: 3rem;
+}
+
+/* Summary, Experience, Education, Skills */
+.cv-summary,
+.cv-experience,
+.cv-education,
+.cv-skills {
+    margin-bottom: 3rem;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Headings */
+h3 {
+    font-size: 2rem;
+    color: #0DCAF0; /* Neon Blue */
+    margin-bottom: 1.5rem;
+}
+
+/* CV Item */
+.cv-item {
+    margin-bottom: 2rem;
+}
+
+.cv-item h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.cv-company,
+.cv-institution {
+    font-style: italic;
+    color: #0DCAF0; /* Neon Blue */
+}
+
+.cv-date {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    margin-bottom: 0.5rem;
+}
+
+.cv-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cv-item ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.cv-item ul li::before {
+    content: '•';
+    color: #0DCAF0; /* Neon Blue */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Skills List */
+.cv-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.cv-skills ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Download CV Button */
+.cv-download {
+    margin-top: 3rem;
+}
+
+.btn-primary {
+    background-color: #0DCAF0; /* Neon Blue */
+    border-color: #0DCAF0;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #0DCAF0;
+    border-color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cv-item h4 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+}
