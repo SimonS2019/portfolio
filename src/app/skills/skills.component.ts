@@ -1,30 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DataService } from '../services/data.service';
+import { HttpClientModule } from '@angular/common/http';
+
+interface Skill {
+  name: string;
+  level: number;
+}
+
+interface SkillCategory {
+  name: string;
+  skills: Skill[];
+}
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [CommonModule],
+  imports: [HttpClientModule, CommonModule],
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
+  providers: [DataService],
 })
-export class SkillsComponent {
-  frontEndSkills = [
-    { name: 'Angular', level: 90 },
-    { name: 'NG Bootstrap', level: 85 },
-    { name: 'CSS', level: 90 },
-    { name: 'JavaScript', level: 80 },
-    { name: 'TypeScript', level: 85 },
-  ];
+export class SkillsComponent implements OnInit {
+  allSkills: SkillCategory[] = [];
 
-  tools = [
-    { name: 'Git', level: 80 },
-    { name: 'GitHub', level: 85 },
-    { name: 'VS Code', level: 90 },
-  ];
+  constructor(private dataService: DataService) {}
 
-  deployment = [
-    { name: 'GitHub Pages', level: 75 },
-    { name: 'CI/CD pipelines', level: 70 },
-  ];
+  ngOnInit(): void {
+    this.dataService.getSkills().subscribe({
+      next: (data) => {
+        this.allSkills = data;
+      },
+      error: (error) => {
+        console.error('Error fetching skills data', error);
+      },
+    });
+  }
 }

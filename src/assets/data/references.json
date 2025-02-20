@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Alice Johnson",
+    "position": "Lead Engineer",
+    "company": "Tech Innovators Inc.",
+    "image": "/assets/images/alice.jpg",
+    "content": "Alice is a highly skilled engineer with a knack for solving complex problems."
+  },
+  {
+    "name": "Bob Williams",
+    "position": "Project Manager",
+    "company": "Creative Solutions Ltd.",
+    "image": "/assets/images/bob.jpg",
+    "content": "Bob has a proven track record of successfully managing large-scale projects."
+  }
+]

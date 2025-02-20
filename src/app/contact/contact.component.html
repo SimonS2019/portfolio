@@ -3,15 +3,18 @@
         <h2 class="section-title">Contact Me</h2>
 
         <div class="contact-info">
-            <p><i class="bi bi-envelope"></i> Email: <a href="mailto:{{ contactInfo.email }}">{{ contactInfo.email }}</a></p>
-            <p><i class="bi bi-telephone"></i> Phone: <a href="tel:{{ contactInfo.phone }}">{{ contactInfo.phone }}</a></p>
+            <p><i class="bi bi-envelope"></i> Email: <a href="mailto:{{ contactInfo.email }}">{{ contactInfo.email
+                    }}</a></p>
+            <p><i class="bi bi-telephone"></i> Phone: <a href="tel:{{ contactInfo.phone }}">{{ contactInfo.phone }}</a>
+            </p>
             <p><i class="bi bi-geo-alt"></i> Location: {{ contactInfo.location }}</p>
         </div>
 
         <div class="social-icons">
-            <a href="{{ contactInfo.socialLinks.linkedin }}" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="{{ contactInfo.socialLinks.github }}" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
-            <a href="{{ contactInfo.socialLinks.twitter }}" target="_blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a *ngFor="let link of contactInfo.socialLinks" [href]="link.url" target="_blank"
+                [attr.aria-label]="link.platform">
+                <i [class]="link.icon"></i>
+            </a>
         </div>
     </div>
 </section>

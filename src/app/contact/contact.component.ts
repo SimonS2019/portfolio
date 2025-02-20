@@ -1,21 +1,29 @@
-import { Component } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [],
+  imports: [HttpClientModule,CommonModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css'],
+  providers: [DataService],
 })
-export class ContactComponent {
-  contactInfo = {
-    email: 'youremail@example.com',
-    phone: '+123 456 789',
-    location: 'Auckland, New Zealand',
-    socialLinks: {
-      linkedin: 'https://linkedin.com/in/yourprofile',
-      github: 'https://github.com/yourprofile',
-      twitter: 'https://twitter.com/yourprofile',
-    },
-  };
+export class ContactComponent implements OnInit {
+  contactInfo: any = {};
+
+  constructor(private dataService: DataService) {}
+
+  ngOnInit(): void {
+    this.dataService.getBasicInfo().subscribe({
+      next: (data) => {
+        this.contactInfo = data;
+      },
+      error: (error) => {
+        console.error('Error fetching data', error);
+      },
+    });
+  }
 }

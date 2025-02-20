@@ -4,25 +4,27 @@
 
         <div id="referenceCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div *ngFor="let reference of references; let i = index" 
-                     class="carousel-item" [ngClass]="{'active': i === 0}">
+                <div *ngFor="let reference of references; let i = index" class="carousel-item"
+                    [ngClass]="{'active': i === 0}">
                     <div class="reference-card">
-                        <p class="reference-quote">"{{ reference.quote }}"</p>
+                        <p class="reference-quote">"{{ reference.content }}"</p>
                         <div class="reference-info">
                             <h5 class="reference-name">{{ reference.name }}</h5>
                             <p class="reference-position">{{ reference.position }}</p>
-                            <a *ngIf="reference.contact" [href]="reference.contact" 
-                               target="_blank" class="reference-contact">Contact</a>
+                            <p class="reference-company">{{ reference.company }}</p>
+                            <img [src]="reference.image" alt="{{ reference.name }}" class="reference-image">
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#referenceCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#referenceCarousel"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#referenceCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#referenceCarousel"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
         </div>
