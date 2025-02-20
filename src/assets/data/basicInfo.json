@@ -15,5 +15,13 @@
       "url": "https://github.com/SimonS2019",
       "icon": "bi bi-github"
     }
-  ]
+  ],
+  "aboutMe": {
+    "description": "I'm Simon Shen, a passionate Front-End & Full-Stack Developer with expertise in Angular, .NET Core, and modern web development.",
+    "coreSkills": ["Angular", ".NET Core", "JavaScript", "TypeScript"],
+    "tools": ["Git", "GitHub", "Docker", "Azure"],
+    "deployment": ["Azure DevOps", "Kubernetes", "CI/CD pipelines"],
+    "additionalInfo": "I enjoy creating modern, user-friendly websites and applications. Let's collaborate to build something amazing!",
+    "imagePath": "assets/simon.webp"
+  }
 }
