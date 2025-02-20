@@ -1,0 +1,86 @@
+/* Projects Section */
+.projects-section {
+    background-color: #212529; /* Dark Gray */
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0DCAF0; /* Neon Blue */
+    margin-bottom: 3rem;
+}
+
+/* Project Card */
+.project-card {
+    background-color: #1B1F3B; /* Midnight Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(13, 202, 240, 0.5);
+}
+
+/* Card Image */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Body */
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Technologies Badges */
+.technologies {
+    margin-bottom: 1rem;
+}
+
+.badge {
+    margin-right: 0.5rem;
+    background-color: #0DCAF0; /* Neon Blue */
+    color: #212529; /* Dark Gray */
+    border-radius: 8px;
+    font-size: 0.85rem;
+    padding: 0.5em 0.8em;
+    font-weight: bold;
+}
+
+/* Project Buttons */
+.project-buttons .btn {
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project-buttons .btn-primary {
+    background-color: #0DCAF0; /* Neon Blue */
+    color: #212529; /* Dark Gray */
+    border: none;
+}
+
+.project-buttons .btn-primary:hover {
+    background-color: #0bb9d1;
+    color: #212529;
+}
+
+.project-buttons .btn-outline-primary {
+    border: 2px solid #0DCAF0;
+    color: #0DCAF0;
+}
+
+.project-buttons .btn-outline-primary:hover {
+    background-color: #0DCAF0;
+    color: #212529;
+}

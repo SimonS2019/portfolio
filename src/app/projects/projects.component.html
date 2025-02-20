@@ -1,1 +1,28 @@
-<p>projects works!</p>
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="row">
+            <div *ngFor="let project of projects" class="col-lg-4 col-md-6 mb-4">
+                <div class="card project-card">
+                    <img [src]="project.image" class="card-img-top" [alt]="project.title">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ project.title }}</h5>
+                        <p class="card-text">{{ project.description }}</p>
+
+                        <div class="technologies">
+                            <span *ngFor="let tech of project.technologies" class="badge bg-primary">{{ tech }}</span>
+                        </div>
+
+                        <div class="project-buttons mt-3">
+                            <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank" 
+                               class="btn btn-primary me-2">Live Demo</a>
+                            <a *ngIf="project.repoLink" [href]="project.repoLink" target="_blank" 
+                               class="btn btn-outline-primary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
