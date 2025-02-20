@@ -1,0 +1,58 @@
+/* Skills Section */
+.skills-section {
+    background-color: #212529;
+    /* Dark Gray */
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0DCAF0;
+    /* Neon Blue */
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+/* Skill Category */
+.skill-category {
+    margin-bottom: 2rem;
+}
+
+/* Category Title */
+.category-title {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+/* Skill Item */
+.skill-item {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+/* Progress Bar */
+.progress {
+    background-color: #343A40;
+    /* Charcoal Gray */
+    border-radius: 8px;
+    overflow: hidden;
+    height: 1.5rem;
+}
+
+.progress-bar {
+    background-color: #0DCAF0;
+    /* Neon Blue */
+    font-weight: bold;
+    color: #212529;
+    /* Dark Gray */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 1.5s ease-in-out;
+}

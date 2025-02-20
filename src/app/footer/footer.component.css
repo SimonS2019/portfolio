@@ -1,0 +1,57 @@
+/* Footer */
+.footer {
+    background-color: #1B1F3B;
+    /* Midnight Blue */
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    /* Ensure it is above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 0;
+}
+
+.social-icon {
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #0DCAF0;
+    /* Neon Blue */
+}
+
+/* Copyright */
+.copyright {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    border: 2px solid #0DCAF0;
+    color: #0DCAF0;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0DCAF0;
+    color: #212529;
+    /* Dark Gray */
+}

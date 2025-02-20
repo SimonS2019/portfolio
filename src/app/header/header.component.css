@@ -1,0 +1,66 @@
+/* Header */
+header {
+    background-color: #1B1F3B; /* Midnight Blue */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Navbar Brand (Logo/Name) */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0DCAF0; /* Neon Blue */
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0DCAF0; /* Neon Blue */
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    color: #0DCAF0;
+    font-weight: bold;
+}
+
+/* Navbar Toggler (Mobile) */
+.navbar-toggler {
+    border: none;
+    background: none;
+    color: #ffffff;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Responsive - Smaller Screens */
+@media (max-width: 992px) {
+    header {
+        background-color: #212529; /* Dark Gray */
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.8rem;
+        font-size: 1.3rem;
+    }
+}
