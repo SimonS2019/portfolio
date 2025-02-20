@@ -1,32 +1,37 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
+import { HttpClientModule } from '@angular/common/http';
+
+interface Reference {
+  name: string;
+  position: string;
+  company: string;
+  image: string;
+  content: string;
+}
 
 @Component({
   selector: 'app-references',
   standalone: true,
-  imports: [CommonModule],
+  imports: [HttpClientModule, CommonModule],
   templateUrl: './references.component.html',
-  styleUrl: './references.component.css'
+  styleUrl: './references.component.css',
+  providers: [DataService],
 })
-export class ReferencesComponent {
-  references = [
-    {
-        name: 'John Doe',
-        position: 'Senior Software Engineer at Google',
-        quote: 'Simon is a highly skilled developer with a great eye for design and functionality.',
-        contact: 'https://www.linkedin.com/in/johndoe'
-    },
-    {
-        name: 'Jane Smith',
-        position: 'Project Manager at Microsoft',
-        quote: 'Working with Simon was a pleasure. His attention to detail and dedication is remarkable.',
-        contact: 'https://www.linkedin.com/in/janesmith'
-    },
-    {
-        name: 'Michael Johnson',
-        position: 'CTO at Tech Startup',
-        quote: 'Simon consistently delivers high-quality work and innovative solutions.',
-        contact: 'https://www.linkedin.com/in/michaeljohnson'
-    }
-];
+export class ReferencesComponent implements OnInit {
+  references: Reference[] = [];
+
+  constructor(private dataService: DataService) {}
+
+  ngOnInit(): void {
+    this.dataService.getReferences().subscribe({
+      next: (data: Reference[]) => {
+        this.references = data;
+      },
+      error: (error) => {
+        console.error('Error fetching references data', error);
+      },
+    });
+  }
 }
