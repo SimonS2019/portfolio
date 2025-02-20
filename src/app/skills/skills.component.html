@@ -1,1 +1,41 @@
-<p>skills works!</p>
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="row">
+            <!-- Front-End Skills -->
+            <div class="col-lg-4 col-md-6 skill-category">
+                <h3 class="category-title">Front-End</h3>
+                <div *ngFor="let skill of frontEndSkills" class="skill-item">
+                    <span>{{ skill.name }}</span>
+                    <div class="progress">
+                        <div class="progress-bar" [style.width.%]="skill.level" role="progressbar"
+                             [attr.aria-valuenow]="skill.level" aria-valuemin="0" aria-valuemax="100">
+                            {{ skill.level }}%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="col-lg-4 col-md-6 skill-category">
+                <h3 class="category-title">Tools</h3>
+                <ul class="skill-list">
+                    <li *ngFor="let tool of tools">
+                        <i class="{{ tool.icon }}"></i> {{ tool.name }}
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Deployment -->
+            <div class="col-lg-4 col-md-6 skill-category">
+                <h3 class="category-title">Deployment</h3>
+                <ul class="skill-list">
+                    <li *ngFor="let deploy of deployment">
+                        <i class="{{ deploy.icon }}"></i> {{ deploy.name }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
