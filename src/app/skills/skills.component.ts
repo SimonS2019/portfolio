@@ -18,13 +18,13 @@ export class SkillsComponent {
   ];
 
   tools = [
-    { name: 'Git', icon: 'bi bi-git', level: 80 },
-    { name: 'GitHub', icon: 'bi bi-github', level: 85 },
-    { name: 'VS Code', icon: 'bi bi-code-slash', level: 90 },
+    { name: 'Git', level: 80 },
+    { name: 'GitHub', level: 85 },
+    { name: 'VS Code', level: 90 },
   ];
 
   deployment = [
-    { name: 'GitHub Pages', icon: 'bi bi-cloud-upload', level: 75 },
-    { name: 'CI/CD pipelines', icon: 'bi bi-gear', level: 70 },
+    { name: 'GitHub Pages', level: 75 },
+    { name: 'CI/CD pipelines', level: 70 },
   ];
 }
