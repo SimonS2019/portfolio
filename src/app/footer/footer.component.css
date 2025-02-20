@@ -1,11 +1,16 @@
 /* Footer */
 .footer {
-    background-color: #1B1F3B; /* Midnight Blue */
+    background-color: #1B1F3B;
+    /* Midnight Blue */
     color: #ffffff;
     padding: 2rem 0;
-    position: relative;
+    position: fixed;
     width: 100%;
     bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    /* Ensure it is above other content */
 }
 
 /* Social Icons */
@@ -24,7 +29,8 @@
 }
 
 .social-icon:hover {
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
 }
 
 /* Copyright */
@@ -43,5 +49,6 @@
 
 .back-to-top:hover {
     background-color: #0DCAF0;
-    color: #212529; /* Dark Gray */
+    color: #212529;
+    /* Dark Gray */
 }
