@@ -1,0 +1,5 @@
+{
+  "coreSkills": ["Angular", "NG Bootstrap", "CSS", "JavaScript", "TypeScript"],
+  "tools": ["Git", "GitHub", "VS Code"],
+  "deployment": ["GitHub Pages", "CI/CD pipelines"]
+}

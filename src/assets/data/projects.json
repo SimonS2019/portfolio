@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website built with Angular 17 and NG Bootstrap.",
+    "link": "https://github.com/yourusername/portfolio"
+  },
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce platform with payment integration.",
+    "link": "https://github.com/yourusername/e-commerce"
+  }
+]

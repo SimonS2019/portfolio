@@ -1,0 +1,12 @@
+[
+  {
+    "name": "John Doe",
+    "position": "Senior Developer at XYZ Company",
+    "email": "john.doe@example.com"
+  },
+  {
+    "name": "Jane Smith",
+    "position": "Team Lead at ABC Tech",
+    "email": "jane.smith@example.com"
+  }
+]
