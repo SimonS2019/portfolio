@@ -1,2 +1,101 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+/* ==================== GLOBAL STYLES ==================== */
+
+/* 🟡 General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🟡 Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529; /* Dark Gray */
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* 🟡 Links */
+a {
+    color: #0DCAF0; /* Neon Blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0bb7db; /* Lighter Neon Blue */
+}
+
+/* ==================== LAYOUT ==================== */
+
+/* 🟡 Page Content */
+.page-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* ==================== HEADER ==================== */
+
+/* 🟡 Header */
+header {
+    background-color: #1B1F3B; /* Midnight Blue */
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 3px solid #0DCAF0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* ==================== FOOTER ==================== */
+
+/* 🟡 Footer */
+footer {
+    background-color: #343A40; /* Charcoal Gray */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 3px solid #0DCAF0;
+    font-size: 0.9rem;
+}
+
+/* ==================== BUTTONS ==================== */
+
+/* 🟡 Bootstrap Button Overrides */
+.btn-primary {
+    background-color: #0DCAF0;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0bb7db;
+}
+
+.btn-outline-primary {
+    border: 2px solid #0DCAF0;
+    color: #0DCAF0;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0DCAF0;
+    color: #ffffff;
+}

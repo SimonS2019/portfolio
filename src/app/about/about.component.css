@@ -1,0 +1,102 @@
+/* About Section */
+.about-section {
+    color: #ffffff;
+    padding: 4rem 0;
+    background-color: #212529; /* Dark Gray */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Image */
+.about-section img {
+    border-radius: 10px;
+    border: 3px solid #0DCAF0; /* Neon Blue */
+}
+
+/* Title */
+.about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0DCAF0;
+    margin-bottom: 1.5rem;
+}
+
+/* Introduction */
+.about-intro {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* List */
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.about-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.about-list li::before {
+    content: "✔";
+    color: #0DCAF0;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.about-footer {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Buttons */
+.about-buttons .btn-primary {
+    background-color: #0DCAF0;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+}
+
+.about-buttons .btn-outline-primary {
+    border: 2px solid #0DCAF0;
+    color: #0DCAF0;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+}
+
+.about-buttons .btn-primary:hover {
+    background-color: #0bb7db;
+}
+
+.about-buttons .btn-outline-primary:hover {
+    background-color: #0DCAF0;
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .about-title {
+        font-size: 2.5rem;
+    }
+    .about-intro {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2rem;
+    }
+    .about-intro {
+        font-size: 1rem;
+    }
+}
