@@ -10,7 +10,7 @@
                     <span>{{ skill.name }}</span>
                     <div class="progress">
                         <div class="progress-bar" [style.width.%]="skill.level" role="progressbar"
-                             [attr.aria-valuenow]="skill.level" aria-valuemin="0" aria-valuemax="100">
+                            [attr.aria-valuenow]="skill.level" aria-valuemin="0" aria-valuemax="100">
                             {{ skill.level }}%
                         </div>
                     </div>
@@ -20,21 +20,29 @@
             <!-- Tools -->
             <div class="col-lg-4 col-md-6 skill-category">
                 <h3 class="category-title">Tools</h3>
-                <ul class="skill-list">
-                    <li *ngFor="let tool of tools">
-                        <i class="{{ tool.icon }}"></i> {{ tool.name }}
-                    </li>
-                </ul>
+                <div *ngFor="let tool of tools" class="skill-item">
+                    <span>{{ tool.name }}</span>
+                    <div class="progress">
+                        <div class="progress-bar" [style.width.%]="tool.level" role="progressbar"
+                            [attr.aria-valuenow]="tool.level" aria-valuemin="0" aria-valuemax="100">
+                            {{ tool.level }}%
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Deployment -->
             <div class="col-lg-4 col-md-6 skill-category">
                 <h3 class="category-title">Deployment</h3>
-                <ul class="skill-list">
-                    <li *ngFor="let deploy of deployment">
-                        <i class="{{ deploy.icon }}"></i> {{ deploy.name }}
-                    </li>
-                </ul>
+                <div *ngFor="let deploy of deployment" class="skill-item">
+                    <span>{{ deploy.name }}</span>
+                    <div class="progress">
+                        <div class="progress-bar" [style.width.%]="deploy.level" role="progressbar"
+                            [attr.aria-valuenow]="deploy.level" aria-valuemin="0" aria-valuemax="100">
+                            {{ deploy.level }}%
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
