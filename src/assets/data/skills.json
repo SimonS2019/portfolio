@@ -1,5 +1,27 @@
-{
-  "coreSkills": ["Angular", "NG Bootstrap", "CSS", "JavaScript", "TypeScript"],
-  "tools": ["Git", "GitHub", "VS Code"],
-  "deployment": ["GitHub Pages", "CI/CD pipelines"]
-}
+[
+  {
+    "name": "Front-End",
+    "skills": [
+      { "name": "Angular", "level": 90 },
+      { "name": "NG Bootstrap", "level": 85 },
+      { "name": "CSS", "level": 90 },
+      { "name": "JavaScript", "level": 80 },
+      { "name": "TypeScript", "level": 85 }
+    ]
+  },
+  {
+    "name": "Tools",
+    "skills": [
+      { "name": "Git", "level": 80 },
+      { "name": "GitHub", "level": 85 },
+      { "name": "VS Code", "level": 90 }
+    ]
+  },
+  {
+    "name": "Deployment",
+    "skills": [
+      { "name": "GitHub Pages", "level": 75 },
+      { "name": "CI/CD pipelines", "level": 70 }
+    ]
+  }
+]
