@@ -3,7 +3,7 @@
     background-color: #1B1F3B;
     /* Midnight Blue */
     color: #ffffff;
-    padding: 2rem 0;
+    padding: 1rem 2rem;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -11,14 +11,17 @@
     right: 0;
     z-index: 1030;
     /* Ensure it is above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Social Icons */
 .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .social-icon {
@@ -36,7 +39,7 @@
 /* Copyright */
 .copyright {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 
 /* Back to Top Button */
