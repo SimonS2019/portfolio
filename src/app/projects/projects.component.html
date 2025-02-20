@@ -14,11 +14,46 @@
                             <span *ngFor="let tech of project.technologies" class="badge bg-primary">{{ tech }}</span>
                         </div>
 
+                        <div class="project-details mt-3">
+                            <p><strong>Role:</strong> {{ project.role }}</p>
+                            <p><strong>Duration:</strong> {{ project.duration }}</p>
+                            <p><strong>Features:</strong></p>
+                            <ul>
+                                <li *ngFor="let feature of project.features">{{ feature }}</li>
+                            </ul>
+                            <p><strong>Challenges:</strong></p>
+                            <ul>
+                                <li *ngFor="let challenge of project.challenges">{{ challenge }}</li>
+                            </ul>
+                            <p><strong>Learnings:</strong></p>
+                            <ul>
+                                <li *ngFor="let learning of project.learnings">{{ learning }}</li>
+                            </ul>
+                            <p *ngIf="project.feedback"><strong>Feedback:</strong></p>
+                            <ul *ngIf="project.feedback">
+                                <li *ngFor="let feedback of project.feedback">{{ feedback }}</li>
+                            </ul>
+                            <p><strong>Type:</strong> {{ project.type }}</p>
+                            <p *ngIf="project.awards"><strong>Awards:</strong></p>
+                            <ul *ngIf="project.awards">
+                                <li *ngFor="let award of project.awards">{{ award }}</li>
+                            </ul>
+                            <p *ngIf="project.videoLink"><strong>Video:</strong> <a [href]="project.videoLink"
+                                    target="_blank">Watch Video</a></p>
+                            <p><strong>Contribution:</strong> {{ project.contribution }}%</p>
+                            <p><strong>Tags:</strong></p>
+                            <div class="tags">
+                                <span *ngFor="let tag of project.tags" class="badge bg-secondary">{{ tag }}</span>
+                            </div>
+                        </div>
+
                         <div class="project-buttons mt-3">
-                            <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank" 
-                               class="btn btn-primary me-2">Live Demo</a>
-                            <a *ngIf="project.repoLink" [href]="project.repoLink" target="_blank" 
-                               class="btn btn-outline-primary">GitHub Repo</a>
+                            <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank"
+                                class="btn btn-primary me-2">Live Demo</a>
+                            <a *ngIf="project.repoLink" [href]="project.repoLink" target="_blank"
+                                class="btn btn-outline-primary">GitHub Repo</a>
+                            <a *ngIf="project.downloadLink" [href]="project.downloadLink" target="_blank"
+                                class="btn btn-outline-secondary">Download</a>
                         </div>
                     </div>
                 </div>

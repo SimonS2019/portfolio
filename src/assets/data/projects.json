@@ -2,11 +2,51 @@
   {
     "title": "Portfolio Website",
     "description": "A personal portfolio website built with Angular 17 and NG Bootstrap.",
-    "link": "https://github.com/yourusername/portfolio"
+    "link": "https://github.com/yourusername/portfolio",
+    "image": "assets/images/portfolio.png",
+    "technologies": ["Angular", "TypeScript", "Bootstrap"],
+    "demoLink": "https://yourportfolio.com",
+    "repoLink": "https://github.com/yourusername/portfolio",
+    "role": "Full-Stack Developer",
+    "duration": "January 2023 - March 2023",
+    "features": [
+      "Responsive Design",
+      "Single Page Application",
+      "SEO Friendly"
+    ],
+    "challenges": ["Implementing SEO", "Optimizing Performance"],
+    "learnings": ["Advanced Angular Concepts", "Bootstrap Customization"],
+    "feedback": ["Great design!", "Very responsive."],
+    "type": "Personal",
+    "awards": ["Best Portfolio 2023"],
+    "videoLink": "https://youtube.com/yourportfolio",
+    "contribution": 100,
+    "tags": ["FrontEnd", "Angular", "TypeScript"],
+    "downloadLink": "https://yourportfolio.com/download"
   },
   {
     "title": "E-Commerce Platform",
     "description": "A full-stack e-commerce platform with payment integration.",
-    "link": "https://github.com/yourusername/e-commerce"
+    "link": "https://github.com/yourusername/e-commerce",
+    "image": "assets/images/e-commerce.png",
+    "technologies": ["Node.js", "Express", "MongoDB"],
+    "demoLink": "https://yourecommerce.com",
+    "repoLink": "https://github.com/yourusername/e-commerce",
+    "role": "Back-End Developer",
+    "duration": "April 2023 - June 2023",
+    "features": [
+      "User Authentication",
+      "Payment Integration",
+      "Product Management"
+    ],
+    "challenges": ["Handling Transactions", "Ensuring Security"],
+    "learnings": ["Payment Gateways", "Database Optimization"],
+    "feedback": ["Very functional!", "Secure and reliable."],
+    "type": "Freelance",
+    "awards": ["Top E-Commerce Platform 2023"],
+    "videoLink": "https://youtube.com/yourecommerce",
+    "contribution": 70,
+    "tags": ["BackEnd", "Node", "MongoDB"],
+    "downloadLink": "https://yourecommerce.com/download"
   }
 ]

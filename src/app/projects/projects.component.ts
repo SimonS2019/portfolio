@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
+import { HttpClientModule } from '@angular/common/http';
 
 // Define project tags enum
 enum ProjectTag {
@@ -57,7 +58,7 @@ interface Project {
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [HttpClientModule, CommonModule],
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css'],
   providers: [DataService],
