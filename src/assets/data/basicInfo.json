@@ -1,7 +1,19 @@
 {
   "name": "Simon Shen",
   "profession": "Front-End & Full-Stack Developer",
-  "email": "youremail@example.com",
-  "phone": "+123 456 789",
-  "location": "Auckland, New Zealand"
+  "email": "shentiexiong@gmail.com",
+  "phone": "022 122 0936",
+  "location": "Auckland, New Zealand",
+  "socialLinks": [
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/tiexiong-shen",
+      "icon": "bi bi-linkedin"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/SimonS2019",
+      "icon": "bi bi-github"
+    }
+  ]
 }
