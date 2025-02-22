@@ -36,23 +36,22 @@ enum ProjectTag {
 interface Project {
   title: string;
   description: string;
-  link: string;
   image: string;
+  tags: ProjectTag[];
   technologies: string[];
   demoLink?: string;
   repoLink?: string;
-  role: string;
+  downloadLink?: string; // Link to download the application
   duration: string; // e.g., "January 2023 - March 2023"
   features: string[];
   challenges: string[];
   learnings: string[];
-  feedback?: string[];
-  type: string; // e.g., "Personal", "Freelance", "Open-Source"
-  awards?: string[];
   videoLink?: string;
   contribution?: number; // Percentage of your contribution
-  tags: ProjectTag[];
-  downloadLink?: string; // Link to download the application
+  role?: string; // Role in the project
+  feedback?: string[]; // Feedback received for the project
+  type?: string; // Type of project
+  awards?: string[]; // Awards received for the project
 }
 
 @Component({
