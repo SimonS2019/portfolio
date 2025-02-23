@@ -1,27 +1,16 @@
 [
   {
-    "title": "Portfolio Website",
-    "description": "A personal portfolio website built with Angular 17 and NG Bootstrap.",
-    "link": "https://github.com/yourusername/portfolio",
+    "title": "Activity Hub",
+    "description": "Developed an activity hub where users can register, post, join events, and message each other. Deployed on Google Firebase with a fully integrated front and back end.",
     "image": "assets/projects/images/f1.webp",
-    "technologies": ["Angular", "TypeScript", "Bootstrap"],
-    "demoLink": "https://yourportfolio.com",
-    "repoLink": "https://github.com/yourusername/portfolio",
-    "role": "Full-Stack Developer",
-    "duration": "January 2023 - March 2023",
+    "tags": ["FullStack", "Firebase", "React"],
+    "technologies": ["Firebase", "React", "Redux", "Firestore"],
+    "demoLink": "https://revents-2023-fe3fe.web.app/",
+    "repoLink": "https://github.com/SimonS2019/revents",
     "features": [
       "Responsive Design",
       "Single Page Application",
-      "SEO Friendly"
-    ],
-    "challenges": ["Implementing SEO", "Optimizing Performance"],
-    "learnings": ["Advanced Angular Concepts", "Bootstrap Customization"],
-    "feedback": ["Great design!", "Very responsive."],
-    "type": "Personal",
-    "awards": ["Best Portfolio 2023"],
-    "videoLink": "https://youtube.com/yourportfolio",
-    "contribution": 100,
-    "tags": ["FrontEnd", "Angular", "TypeScript"],
-    "downloadLink": "https://yourportfolio.com/download"
+      "multiple login methods"
+    ]
   }
 ]
