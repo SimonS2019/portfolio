@@ -17,7 +17,7 @@
     "title": "Magic Memory",
     "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
     "image": "assets/projects/images/f2.webp",
-    "tags": ["Firebase", "React"],
+    "tags": ["Firebase", "React","Game"],
     "technologies": ["Firebase", "React", "TypeScript"],
     "demoLink": "https://magic-memory-new.web.app/",
     "repoLink": "https://github.com/SimonS2019/magic-memory",
@@ -25,6 +25,26 @@
       "Web Application",
       "Responsive Design",
       "Single Page Application"
+    ]
+  },
+  {
+    "title": "Tyre Shop",
+    "description": "Initially started as a simple frontend software while learning Angular unit testing. Later, I got inspired to develop a full-stack application with a database and optimized UI/UX.",
+    "image": "assets/projects/images/m1.webp",
+    "tags": ["FullStack", "MongoDB", "Node", "Angular"],
+    "technologies": ["Angular 11", "Express", "MongoDB", "Bootstrap"],
+    "demoLink": "https://tyre-web.vercel.app/",
+    "repoLink": [
+      "https://github.com/SimonS2019/tyre-web",
+      "https://github.com/SimonS2019/tyre-api"
+    ],
+    "features": [
+      "Web Application",
+      "Login",
+      "Different user levels",
+      "Purchase",
+      "Order",
+      "Admin panel"
     ]
   }
 ]
