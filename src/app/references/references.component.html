@@ -12,7 +12,7 @@
                             <h5 class="reference-name">{{ reference.name }}</h5>
                             <p class="reference-position">{{ reference.position }}</p>
                             <p class="reference-company">{{ reference.company }}</p>
-                            <img [src]="reference.image" alt="{{ reference.name }}" class="reference-image">
+                            <img [src]="reference.image || 'assets/unknown-person.png'" alt="{{ reference.name }}" class="reference-image">
                         </div>
                     </div>
                 </div>
