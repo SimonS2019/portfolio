@@ -8,17 +8,9 @@
                     <img [src]="project.image" class="card-img-top" [alt]="project.title" (click)="openModal(project)">
                     <div class="card-body">
                         <h5 class="card-title">{{ project.title }}</h5>
-                        <p class="card-text">{{ project.description }}</p>
 
                         <div class="technologies">
                             <span *ngFor="let tech of project.technologies" class="badge bg-primary">{{ tech }}</span>
-                        </div>
-
-                        <div class="project-details mt-3">
-                            <p><strong>Tags:</strong></p>
-                            <div class="tags">
-                                <span *ngFor="let tag of project.tags" class="badge bg-secondary">{{ tag }}</span>
-                            </div>
                         </div>
 
                         <div class="project-buttons mt-3">
@@ -42,10 +34,9 @@
         <h4 class="modal-title">{{ selectedProject?.title }}</h4>
         <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
     </div>
-    <div class="modal-body">
+    <div class="modal-body" style="color: black;">
         <img [src]="selectedProject?.image" class="img-fluid" [alt]="selectedProject?.title">
         <p>{{ selectedProject?.description }}</p>
-        <!-- ...additional project details... -->
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-secondary" (click)="modal.close('Close click')">Close</button>
