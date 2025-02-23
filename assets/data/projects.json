@@ -1,0 +1,86 @@
+[
+  {
+    "title": " IoT platform",
+    "description": "An IoT platform providing efficient technical support and customized solutions for dozens of clients including OneNZ, Christchurch City Council, and Mackenzie District Council. I was responsible for all design and frontend architecture, as well as parts of the backend and database services. Last year, the project passed One NZ's security compliance verification.",
+    "image": "assets/projects/images/p1.webp",
+    "tags": ["Angular", "DotNetCore","FullStack"],
+    "technologies": ["Angular", "SQL", "FullStack", "DotNetCore"],
+    "demoLink": "https://beta.motiv.io/login?returnUrl=%2Fhome",
+    "repoLink": null,
+    "features": [
+      "Web Application",
+      "Design",
+      "Frontend Architecture",
+      "Backend Services",
+      "Database Services"
+    ]
+  },
+  {
+    "title": "Activity Hub",
+    "description": "Developed an activity hub where users can register, post, join events, and message each other. Deployed on Google Firebase with a fully integrated front and back end.",
+    "image": "assets/projects/images/f1.webp",
+    "tags": ["FullStack", "Firebase", "React"],
+    "technologies": ["Firebase", "React", "Redux", "Firestore"],
+    "demoLink": "https://revents-2023-fe3fe.web.app/",
+    "repoLink": "https://github.com/SimonS2019/revents",
+    "features": [
+      "Responsive Design",
+      "Single Page Application",
+      "multiple login methods"
+    ]
+  },
+  {
+    "title": "Magic Memory",
+    "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
+    "image": "assets/projects/images/f2.webp",
+    "tags": ["Firebase", "React", "Game"],
+    "technologies": ["Firebase", "React", "TypeScript", "Game"],
+    "demoLink": "https://magic-memory-new.web.app/",
+    "repoLink": "https://github.com/SimonS2019/magic-memory",
+    "features": [
+      "Web Application",
+      "Responsive Design",
+      "Single Page Application"
+    ]
+  },
+  {
+    "title": "Tyre Shop",
+    "description": "Initially started as a simple frontend software while learning Angular unit testing. Later, I got inspired to develop a full-stack application with a database and optimized UI/UX.",
+    "image": "assets/projects/images/m1.webp",
+    "tags": ["FullStack", "MongoDB", "Node", "Angular"],
+    "technologies": ["Angular 11", "Express", "MongoDB", "Bootstrap"],
+    "demoLink": "https://tyre-web.vercel.app/",
+    "repoLink": [
+      "https://github.com/SimonS2019/tyre-web",
+      "https://github.com/SimonS2019/tyre-api"
+    ],
+    "features": [
+      "Web Application",
+      "Login",
+      "Different user levels",
+      "Purchase",
+      "Order",
+      "Admin panel"
+    ]
+  },
+  {
+    "title": "Vertu Equipment",
+    "description": "In 2020, provided a series of services for this company including website design, development, deployment, and database management. The website has undergone multiple iterations since the project ended.",
+    "image": "assets/projects/images/w1.webp",
+    "tags": ["Web Development", "Database Management"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Google Drive",
+      "Duda"
+    ],
+    "demoLink": "https://vertuequipment.co.nz/",
+    "repoLink": null,
+    "features": [
+      "Website Design",
+      "Development",
+      "Deployment",
+      "Database Management"
+    ]
+  }
+]
