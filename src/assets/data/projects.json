@@ -1,5 +1,21 @@
 [
   {
+    "title": "Shape Technology",
+    "description": "An IoT platform providing efficient technical support and customized solutions for dozens of clients including OneNZ, Christchurch City Council, and Mackenzie District Council. I was responsible for all design and frontend architecture, as well as parts of the backend and database services. Last year, the project passed One NZ's security compliance verification.",
+    "image": "assets/projects/images/j1.webp",
+    "tags": ["IoT", "FullStack"],
+    "technologies": ["Angular", "SQL", "FullStack"],
+    "demoLink": "https://beta.motiv.io/login?returnUrl=%2Fhome",
+    "repoLink": null,
+    "features": [
+      "Web Application",
+      "Design",
+      "Frontend Architecture",
+      "Backend Services",
+      "Database Services"
+    ]
+  },
+  {
     "title": "Activity Hub",
     "description": "Developed an activity hub where users can register, post, join events, and message each other. Deployed on Google Firebase with a fully integrated front and back end.",
     "image": "assets/projects/images/f1.webp",
@@ -17,7 +33,7 @@
     "title": "Magic Memory",
     "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
     "image": "assets/projects/images/f2.webp",
-    "tags": ["Firebase", "React","Game"],
+    "tags": ["Firebase", "React", "Game"],
     "technologies": ["Firebase", "React", "TypeScript"],
     "demoLink": "https://magic-memory-new.web.app/",
     "repoLink": "https://github.com/SimonS2019/magic-memory",
@@ -52,7 +68,15 @@
     "description": "In 2020, provided a series of services for this company including website design, development, deployment, and database management. The website has undergone multiple iterations since the project ended.",
     "image": "assets/projects/images/w1.webp",
     "tags": ["Web Development", "Database Management"],
-    "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Google Drive", "Duda"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Google Drive",
+      "Duda"
+    ],
     "demoLink": "https://vertuequipment.co.nz/",
     "repoLink": null,
     "features": [
