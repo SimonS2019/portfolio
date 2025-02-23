@@ -27,9 +27,19 @@
   "curriculumVitae": {
     "education": [
       {
-        "degree": "Bachelor of Computer Science",
-        "institution": "University of Auckland - New Zealand",
-        "date": "2018 - 2022"
+        "degree": "Bachelor of Computer and Information Science",
+        "institution": "Auckland University of Technology",
+        "date": "Graduated 2019"
+      },
+      {
+        "degree": "Diploma of Information Technology",
+        "institution": "New Zealand School of Education",
+        "date": "Graduated 2018"
+      },
+      {
+        "degree": "Bachelor of Logistics Management",
+        "institution": "Nanfang College of Sun Yat-Sen University",
+        "date": "Graduated 2015"
       }
     ],
     "experiences": [
