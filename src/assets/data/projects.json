@@ -46,5 +46,20 @@
       "Order",
       "Admin panel"
     ]
+  },
+  {
+    "title": "Vertu Equipment",
+    "description": "In 2020, provided a series of services for this company including website design, development, deployment, and database management. The website has undergone multiple iterations since the project ended.",
+    "image": "assets/projects/images/w1.webp",
+    "tags": ["Web Development", "Database Management"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Google Drive", "Duda"],
+    "demoLink": "https://vertuequipment.co.nz/",
+    "repoLink": null,
+    "features": [
+      "Website Design",
+      "Development",
+      "Deployment",
+      "Database Management"
+    ]
   }
 ]
