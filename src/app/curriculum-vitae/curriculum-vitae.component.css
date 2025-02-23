@@ -1,6 +1,7 @@
 /* Curriculum Vitae Section */
 .cv-section {
-    background-color: #212529; /* Dark Gray */
+    background-color: #212529;
+    /* Dark Gray */
     color: #ffffff;
     padding: 4rem 0;
     text-align: center;
@@ -10,7 +11,8 @@
 .section-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     margin-bottom: 3rem;
 }
 
@@ -26,10 +28,31 @@
     margin-right: auto;
 }
 
+/* CV Columns */
+.cv-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* Interests Column */
+.interests-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* CV Column */
+.cv-column {
+    flex: 1;
+    text-align: left;
+}
+
 /* Headings */
 h3 {
     font-size: 2rem;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     margin-bottom: 1.5rem;
 }
 
@@ -47,7 +70,8 @@ h3 {
 .cv-company,
 .cv-institution {
     font-style: italic;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
 }
 
 .cv-date {
@@ -70,7 +94,8 @@ h3 {
 
 .cv-item ul li::before {
     content: '•';
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     position: absolute;
     left: 0;
     top: 0;
@@ -94,7 +119,8 @@ h3 {
 }
 
 .btn-primary {
-    background-color: #0DCAF0; /* Neon Blue */
+    background-color: #0DCAF0;
+    /* Neon Blue */
     border-color: #0DCAF0;
     border-radius: 8px;
     padding: 0.75rem 1.5rem;
@@ -116,5 +142,9 @@ h3 {
 
     h3 {
         font-size: 1.75rem;
+    }
+
+    .cv-columns {
+        flex-direction: column;
     }
 }
