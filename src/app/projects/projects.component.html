@@ -24,6 +24,7 @@
                                 class="btn btn-outline-primary">GitHub Repo</a>
                             <a *ngIf="project.downloadLink" [href]="project.downloadLink" target="_blank"
                                 class="btn btn-outline-secondary">Download</a>
+                            <a (click)="openModal(project)" class="btn btn-outline-primary">More</a>
                         </div>
                     </div>
                 </div>
