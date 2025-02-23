@@ -6,13 +6,18 @@
             <div class="carousel-inner">
                 <div *ngFor="let reference of references; let i = index" class="carousel-item"
                     [ngClass]="{'active': i === 0}">
-                    <div class="reference-card">
-                        <p class="reference-quote">"{{ reference.content }}"</p>
-                        <div class="reference-info">
-                            <h5 class="reference-name">{{ reference.name }}</h5>
-                            <p class="reference-position">{{ reference.position }}</p>
-                            <p class="reference-company">{{ reference.company }}</p>
-                            <img [src]="reference.image || 'assets/unknown-person.png'" alt="{{ reference.name }}" class="reference-image">
+                    <div class="reference-card d-flex">
+                        <div class="reference-details">
+                            <img [src]="reference.image || 'assets/unknown-person.png'" alt="{{ reference.name }}"
+                                class="reference-image" style="height: 200px; width: 200px;">
+                            <div class="reference-info">
+                                <h5 class="reference-name">{{ reference.name }}</h5>
+                                <p class="reference-position">{{ reference.position }}</p>
+                                <p class="reference-company">{{ reference.company }}</p>
+                            </div>
+                        </div>
+                        <div class="reference-content">
+                            <p class="reference-quote">"{{ reference.content }}"</p>
                         </div>
                     </div>
                 </div>
