@@ -48,13 +48,10 @@
         "company": "Shape Technology Ltd",
         "date": "2022 - Present",
         "duties": [
-          "Led the development and DevOps functions for a customer-facing SPA web application.",
-          "Maintained inherited code and migrated framework versions.",
-          "Gathered detailed requirements and implemented new features in the tech stack.",
-          "Owned the CI/CD pipeline for building (docker container), pushing, and deploying the application to both development and production environments.",
-          "Provided documentation and tips for getting the most out of new features.",
-          "Contributed to backend systems and engaged in professional development courses to position as a full-stack developer.",
-          "Utilized a range of languages and frameworks including TypeScript, CSS, Angular, C#, .NET Core, MySQL, Lua, and Bash."
+          "Led development and DevOps for a customer-facing SPA.",
+          "Maintained and upgraded legacy code.",
+          "Gathered requirements and implemented new features.",
+          "Enhanced backend systems and pursued full-stack development."
         ]
       },
       {
@@ -62,18 +59,12 @@
         "company": "Spiritx",
         "date": "Nov 2019 - 2022",
         "duties": [
-          "Utilized WordPress, Duda, and Wix to help customers build their websites quickly, allowing administrators to edit content without coding requirements.",
-          "Building stable and maintainable code bases using React or Angular.",
-          "Collaborating with designers to ensure designs were efficient and user-friendly.",
-          "Debugging and testing."
+          "Built customer websites with WordPress, Duda, and Wix.",
+          "Collaborated with designers for user-friendly designs.",
+          "Performed debugging and testing."
         ]
       }
     ],
-    "interests": [
-      "Traveling",
-      "Fishing",
-      "Camping",
-      "Woodworking"
-    ]
+    "interests": ["Traveling", "Fishing", "Camping", "Woodworking"]
   }
 }
