@@ -5,33 +5,21 @@
             <!-- Education Column -->
             <div class="cv-column">
                 <h3>Education</h3>
-                <div class="cv-item">
-                    <h4>Bachelor of Computer Science</h4>
-                    <p class="cv-institution">University of Auckland - New Zealand</p>
-                    <p class="cv-date">2018 - 2022</p>
+                <div class="cv-item" *ngFor="let edu of curriculumVitae.education">
+                    <h4>{{ edu.degree }}</h4>
+                    <p class="cv-institution">{{ edu.institution }}</p>
+                    <p class="cv-date">{{ edu.date }}</p>
                 </div>
             </div>
             <!-- Experiences Column -->
             <div class="cv-column">
                 <h3>Experiences</h3>
-                <div class="cv-item">
-                    <h4>Front-End Developer</h4>
-                    <p class="cv-company">XYZ Company - Auckland, New Zealand</p>
-                    <p class="cv-date">Jan 2023 - Present</p>
+                <div class="cv-item" *ngFor="let exp of curriculumVitae.experiences">
+                    <h4>{{ exp.title }}</h4>
+                    <p class="cv-company">{{ exp.company }}</p>
+                    <p class="cv-date">{{ exp.date }}</p>
                     <ul>
-                        <li>Developed modern web applications using Angular and Bootstrap.</li>
-                        <li>Collaborated with back-end developers and UI/UX designers.</li>
-                        <li>Implemented responsive design for cross-platform compatibility.</li>
-                    </ul>
-                </div>
-                <div class="cv-item">
-                    <h4>Web Developer Intern</h4>
-                    <p class="cv-company">ABC Tech - Wellington, New Zealand</p>
-                    <p class="cv-date">Jun 2022 - Dec 2022</p>
-                    <ul>
-                        <li>Assisted in developing web components using TypeScript and JavaScript.</li>
-                        <li>Maintained version control using Git and GitHub.</li>
-                        <li>Performed testing and debugging to ensure website performance.</li>
+                        <li *ngFor="let duty of exp.duties">{{ duty }}</li>
                     </ul>
                 </div>
             </div>
@@ -42,10 +30,7 @@
                 </div>
                 <h3>Interests</h3>
                 <ul>
-                    <li>Web Development</li>
-                    <li>Open Source Projects</li>
-                    <li>Traveling</li>
-                    <li>Photography</li>
+                    <li *ngFor="let interest of curriculumVitae.interests">{{ interest }}</li>
                 </ul>
             </div>
         </div>

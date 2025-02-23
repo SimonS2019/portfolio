@@ -23,5 +23,42 @@
     "deployment": ["Azure DevOps", "Kubernetes", "CI/CD pipelines"],
     "additionalInfo": "I enjoy creating modern, user-friendly websites and applications. Let's collaborate to build something amazing!",
     "imagePath": "assets/simon.webp"
+  },
+  "curriculumVitae": {
+    "education": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "University of Auckland - New Zealand",
+        "date": "2018 - 2022"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "Front-End Developer",
+        "company": "XYZ Company - Auckland, New Zealand",
+        "date": "Jan 2023 - Present",
+        "duties": [
+          "Developed modern web applications using Angular and Bootstrap.",
+          "Collaborated with back-end developers and UI/UX designers.",
+          "Implemented responsive design for cross-platform compatibility."
+        ]
+      },
+      {
+        "title": "Web Developer Intern",
+        "company": "ABC Tech - Wellington, New Zealand",
+        "date": "Jun 2022 - Dec 2022",
+        "duties": [
+          "Assisted in developing web components using TypeScript and JavaScript.",
+          "Maintained version control using Git and GitHub.",
+          "Performed testing and debugging to ensure website performance."
+        ]
+      }
+    ],
+    "interests": [
+      "Web Development",
+      "Open Source Projects",
+      "Traveling",
+      "Photography"
+    ]
   }
 }
