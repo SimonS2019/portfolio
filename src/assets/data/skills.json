@@ -3,10 +3,20 @@
     "name": "Front-End",
     "skills": [
       { "name": "Angular", "level": 90 },
-      { "name": "NG Bootstrap", "level": 85 },
-      { "name": "CSS", "level": 90 },
       { "name": "JavaScript", "level": 80 },
       { "name": "TypeScript", "level": 85 }
+    ]
+  },
+  {
+    "name": "Back-End & DB",
+    "skills": [
+      { "name": ".NET Core", "level": 75 },
+      { "name": "Node.js", "level": 80 },
+      { "name": "Firebase", "level": 70 },
+      { "name": "Google Cloud", "level": 65 },
+      { "name": "MySQL", "level": 80 },
+      { "name": "MongoDB", "level": 75 },
+      { "name": "Firebase Firestore", "level": 70 }
     ]
   },
   {
@@ -14,14 +24,10 @@
     "skills": [
       { "name": "Git", "level": 80 },
       { "name": "GitHub", "level": 85 },
-      { "name": "VS Code", "level": 90 }
-    ]
-  },
-  {
-    "name": "Deployment",
-    "skills": [
-      { "name": "GitHub Pages", "level": 75 },
-      { "name": "CI/CD pipelines", "level": 70 }
+      { "name": "VS Code", "level": 90 },
+      { "name": "Docker", "level": 75 },
+      { "name": "CI/CD", "level": 70 },
+      { "name": "Azure DevOps", "level": 70 }
     ]
   }
 ]
