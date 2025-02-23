@@ -30,13 +30,13 @@
 
 <!-- Modal Template -->
 <ng-template #projectModal let-modal>
-    <div class="modal-header">
+    <div class="modal-header" style="color: black;">
         <h4 class="modal-title">{{ selectedProject?.title }}</h4>
         <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
     </div>
     <div class="modal-body" style="color: black;">
         <img [src]="selectedProject?.image" class="img-fluid" [alt]="selectedProject?.title">
-        <p>{{ selectedProject?.description }}</p>
+        <p style="margin-top: 30px;">{{ selectedProject?.description }}</p>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-secondary" (click)="modal.close('Close click')">Close</button>

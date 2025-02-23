@@ -84,6 +84,6 @@ export class ProjectsComponent implements OnInit {
 
   openModal(project: Project): void {
     this.selectedProject = project;
-    this.modalRef = this.modalService.open(this.projectModal, { centered: true });
-  }
+    this.modalRef = this.modalService.open(this.projectModal, { centered: true, size: 'xl' });
+}
 }
