@@ -1,16 +1,16 @@
 [
   {
-    "name": "Alice Johnson",
-    "position": "Lead Engineer",
-    "company": "Tech Innovators Inc.",
-    "image": "/assets/images/alice.jpg",
-    "content": "Alice is a highly skilled engineer with a knack for solving complex problems."
+    "name": "Luke Wang",
+    "position": "Software Engineer",
+    "company": "Shape Technology Ltd",
+    "image": "",
+    "content": "Collaborating with Simon has been a pleasure with his excellent communication and attention to detail. Alongside being a wonderful person, Simon consistently delivers front-end features that solve key workflow issues within our team. The usability and quality of his work has only improved during the time we worked together. I am confident that Simon's remarkable work ethic will continue throughout his career."
   },
   {
-    "name": "Bob Williams",
+    "name": "Jane Doe",
     "position": "Project Manager",
-    "company": "Creative Solutions Ltd.",
-    "image": "/assets/images/bob.jpg",
-    "content": "Bob has a proven track record of successfully managing large-scale projects."
+    "company": "Tech Solutions Inc",
+    "image": "",
+    "content": "Simon is an outstanding developer who consistently exceeds expectations. His ability to understand complex requirements and deliver high-quality solutions is impressive. Simon's dedication and proactive approach make him an invaluable asset to any team."
   }
 ]
