@@ -1,5 +1,12 @@
 [
   {
+    "name": "Steven Dirven",
+    "position": "CTO",
+    "company": "Shape Technology Ltd",
+    "image": "",
+    "content": "Simon has been an exemplary full-stack developer at Shape Technology, leading frontend development, DevOps, and CI/CD pipelines. Skilled in TypeScript, Angular, C#, .NET Core, and MySQL, he excels at maintaining code, implementing features, and documenting best practices. A continuous learner and dedicated team player, Simon is a valuable asset to any development team."
+  },
+  {
     "name": "Luke Wang",
     "position": "Software Engineer",
     "company": "Shape Technology Ltd",
