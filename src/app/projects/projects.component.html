@@ -13,9 +13,9 @@
                             <span *ngFor="let tech of project.technologies" class="badge bg-primary">{{ tech }}</span>
                         </div>
 
-                        <div class="tags">
+                        <!-- <div class="tags">
                             <span *ngFor="let tag of project.tags" class="badge bg-secondary">{{ tag }}</span>
-                        </div>
+                        </div> -->
 
                         <div class="project-buttons mt-3">
                             <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank"
