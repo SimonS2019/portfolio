@@ -23,5 +23,47 @@
     "deployment": ["Azure DevOps", "Kubernetes", "CI/CD pipelines"],
     "additionalInfo": "I enjoy creating modern, user-friendly websites and applications. Let's collaborate to build something amazing!",
     "imagePath": "assets/simon.webp"
+  },
+  "curriculumVitae": {
+    "education": [
+      {
+        "degree": "Bachelor of Computer and Information Science",
+        "institution": "Auckland University of Technology",
+        "date": "Graduated 2019"
+      },
+      {
+        "degree": "Diploma of Information Technology",
+        "institution": "New Zealand School of Education",
+        "date": "Graduated 2018"
+      },
+      {
+        "degree": "Bachelor of Logistics Management",
+        "institution": "Nanfang College of Sun Yat-Sen University",
+        "date": "Graduated 2015"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "Software Engineer",
+        "company": "Shape Technology Ltd",
+        "date": "2022 - Present",
+        "duties": [
+          "Led development of a high-performance SPA (Angular, .NET Core), achieving 80% faster through front-end code refactoring.",
+          "Upgraded Angular from v7 to v16, added new features, and ensured security compliance with OneNZ.",
+          "Expanded backend capabilities, driving full-stack proficiency."
+        ]
+      },
+      {
+        "title": "Web Developer",
+        "company": "Spiritx",
+        "date": "Nov 2019 - 2022",
+        "duties": [
+          "Built customer websites with WordPress, Duda, and Wix.",
+          "Collaborated with designers for user-friendly designs.",
+          "Performed debugging and testing."
+        ]
+      }
+    ],
+    "interests": ["Traveling", "Fishing", "Camping", "Woodworking"]
   }
 }
