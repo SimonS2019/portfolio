@@ -37,7 +37,7 @@
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .card-img-top:hover {
