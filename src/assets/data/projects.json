@@ -1,10 +1,10 @@
 [
   {
-    "title": "Shape Technology",
+    "title": " IoT platform",
     "description": "An IoT platform providing efficient technical support and customized solutions for dozens of clients including OneNZ, Christchurch City Council, and Mackenzie District Council. I was responsible for all design and frontend architecture, as well as parts of the backend and database services. Last year, the project passed One NZ's security compliance verification.",
-    "image": "assets/projects/images/j1.webp",
-    "tags": ["IoT", "FullStack"],
-    "technologies": ["Angular", "SQL", "FullStack"],
+    "image": "assets/projects/images/p1.webp",
+    "tags": ["Angular", "DotNetCore","FullStack"],
+    "technologies": ["Angular", "SQL", "FullStack", "DotNetCore"],
     "demoLink": "https://beta.motiv.io/login?returnUrl=%2Fhome",
     "repoLink": null,
     "features": [
@@ -34,7 +34,7 @@
     "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
     "image": "assets/projects/images/f2.webp",
     "tags": ["Firebase", "React", "Game"],
-    "technologies": ["Firebase", "React", "TypeScript"],
+    "technologies": ["Firebase", "React", "TypeScript", "Game"],
     "demoLink": "https://magic-memory-new.web.app/",
     "repoLink": "https://github.com/SimonS2019/magic-memory",
     "features": [
@@ -71,9 +71,6 @@
     "technologies": [
       "HTML",
       "CSS",
-      "JavaScript",
-      "Node.js",
-      "MongoDB",
       "Google Drive",
       "Duda"
     ],
