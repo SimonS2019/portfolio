@@ -48,10 +48,9 @@
         "company": "Shape Technology Ltd",
         "date": "2022 - Present",
         "duties": [
-          "Led development and DevOps for a customer-facing SPA.",
-          "Maintained and upgraded legacy code.",
-          "Gathered requirements and implemented new features.",
-          "Enhanced backend systems and pursued full-stack development."
+          "Led development of a high-performance SPA (Angular, .NET Core), achieving 80% faster through front-end code refactoring.",
+          "Upgraded Angular from v7 to v16, added new features, and ensured security compliance with OneNZ.",
+          "Expanded backend capabilities, driving full-stack proficiency."
         ]
       },
       {
