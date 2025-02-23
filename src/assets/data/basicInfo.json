@@ -44,29 +44,33 @@
     ],
     "experiences": [
       {
-        "title": "Front-End Developer",
-        "company": "XYZ Company - Auckland, New Zealand",
-        "date": "Jan 2023 - Present",
+        "title": "Software Engineer",
+        "company": "Shape Technology Ltd",
+        "date": "2022 - Present",
         "duties": [
-          "Developed modern web applications using Angular and Bootstrap.",
-          "Collaborated with back-end developers and UI/UX designers.",
-          "Implemented responsive design for cross-platform compatibility."
+          "Led the development and DevOps functions for a customer-facing SPA web application.",
+          "Maintained inherited code and migrated framework versions.",
+          "Gathered detailed requirements and implemented new features in the tech stack.",
+          "Owned the CI/CD pipeline for building (docker container), pushing, and deploying the application to both development and production environments.",
+          "Provided documentation and tips for getting the most out of new features.",
+          "Contributed to backend systems and engaged in professional development courses to position as a full-stack developer.",
+          "Utilized a range of languages and frameworks including TypeScript, CSS, Angular, C#, .NET Core, MySQL, Lua, and Bash."
         ]
       },
       {
-        "title": "Web Developer Intern",
-        "company": "ABC Tech - Wellington, New Zealand",
-        "date": "Jun 2022 - Dec 2022",
+        "title": "Web Developer",
+        "company": "Spiritx",
+        "date": "Nov 2019 - 2022",
         "duties": [
-          "Assisted in developing web components using TypeScript and JavaScript.",
-          "Maintained version control using Git and GitHub.",
-          "Performed testing and debugging to ensure website performance."
+          "Utilized WordPress, Duda, and Wix to help customers build their websites quickly, allowing administrators to edit content without coding requirements.",
+          "Building stable and maintainable code bases using React or Angular.",
+          "Collaborating with designers to ensure designs were efficient and user-friendly.",
+          "Debugging and testing."
         ]
       }
     ],
     "interests": [
       "Web Development",
-      "Open Source Projects",
       "Traveling",
       "Photography"
     ]
