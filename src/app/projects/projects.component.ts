@@ -1,7 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 
 // Define project tags enum
 enum ProjectTag {
@@ -64,8 +65,11 @@ interface Project {
 })
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [];
+  selectedProject: Project | null = null;
+  @ViewChild('projectModal') projectModal: any;
+  private modalRef: NgbModalRef | null = null;
 
-  constructor(private dataService: DataService) {}
+  constructor(private dataService: DataService, private modalService: NgbModal) {}
 
   ngOnInit(): void {
     this.dataService.getProjects().subscribe({
@@ -76,5 +80,10 @@ export class ProjectsComponent implements OnInit {
         console.error('Error fetching projects data', error);
       },
     });
+  }
+
+  openModal(project: Project): void {
+    this.selectedProject = project;
+    this.modalRef = this.modalService.open(this.projectModal, { centered: true });
   }
 }
