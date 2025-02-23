@@ -12,5 +12,19 @@
       "Single Page Application",
       "multiple login methods"
     ]
+  },
+  {
+    "title": "Magic Memory",
+    "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
+    "image": "assets/projects/images/f2.webp",
+    "tags": ["Firebase", "React"],
+    "technologies": ["Firebase", "React", "TypeScript"],
+    "demoLink": "https://magic-memory-new.web.app/",
+    "repoLink": "https://github.com/SimonS2019/magic-memory",
+    "features": [
+      "Web Application",
+      "Responsive Design",
+      "Single Page Application"
+    ]
   }
 ]
