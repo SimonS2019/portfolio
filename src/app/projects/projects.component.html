@@ -13,6 +13,10 @@
                             <span *ngFor="let tech of project.technologies" class="badge bg-primary">{{ tech }}</span>
                         </div>
 
+                        <div class="tags">
+                            <span *ngFor="let tag of project.tags" class="badge bg-secondary">{{ tag }}</span>
+                        </div>
+
                         <div class="project-buttons mt-3">
                             <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank"
                                 class="btn btn-primary me-2">Live Demo</a>
@@ -37,6 +41,7 @@
     <div class="modal-body" style="color: black;">
         <img [src]="selectedProject?.image" class="img-fluid" [alt]="selectedProject?.title">
         <p style="margin-top: 30px;">{{ selectedProject?.description }}</p>
+        <p><strong>Tags:</strong> {{ formatTags(selectedProject?.tags || []) }}</p>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-secondary" (click)="modal.close('Close click')">Close</button>

@@ -82,8 +82,12 @@ export class ProjectsComponent implements OnInit {
     });
   }
 
+  formatTags(tags: ProjectTag[]): string {
+    return tags.join(', ');
+  }
+
   openModal(project: Project): void {
     this.selectedProject = project;
     this.modalRef = this.modalService.open(this.projectModal, { centered: true, size: 'xl' });
-}
+  }
 }

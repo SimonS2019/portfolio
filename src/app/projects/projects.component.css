@@ -57,6 +57,21 @@
     font-weight: bold;
 }
 
+/* Tags Badges */
+.tags {
+    margin-top: 1rem;
+}
+
+.tags .badge {
+    margin-right: 0.5rem;
+    background-color: #6c757d; /* Secondary color */
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    padding: 0.5em 0.8em;
+    font-weight: bold;
+}
+
 /* Project Buttons */
 .project-buttons .btn {
     font-weight: bold;
