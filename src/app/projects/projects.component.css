@@ -26,8 +26,8 @@
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 20px rgba(13, 202, 240, 0.5);
+    /* transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(13, 202, 240, 0.5); */
 }
 
 /* Card Image */
