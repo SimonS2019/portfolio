@@ -40,6 +40,19 @@
     margin-bottom: 2rem;
 }
 
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 /* Animation */
 @keyframes fadeIn {
     from {
