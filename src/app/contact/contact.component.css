@@ -1,8 +1,9 @@
 /* Contact Section */
 .contact-section {
-    background-color: #212529; /* Dark Gray */
+    background-color: #212529;
+    /* Dark Gray */
     color: #ffffff;
-    padding: 4rem 0;
+    padding: 6rem 0rem 4rem 0rem;
     text-align: center;
 }
 
@@ -10,7 +11,8 @@
 .section-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     margin-bottom: 3rem;
 }
 
@@ -26,7 +28,8 @@
 
 .contact-info i {
     font-size: 1.5rem;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
 }
 
 .contact-info a {
@@ -50,7 +53,8 @@
 
 .social-icons a {
     font-size: 2.5rem;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     transition: all 0.3s ease;
 }
 

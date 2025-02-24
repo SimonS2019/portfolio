@@ -1,8 +1,9 @@
 /* References Section */
 .references-section {
-    background-color: #212529; /* Dark Gray */
+    background-color: #212529;
+    /* Dark Gray */
     color: #ffffff;
-    padding: 4rem 0;
+    padding: 6rem 0rem 0rem 0rem;
     text-align: center;
 }
 
@@ -10,13 +11,15 @@
 .section-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     margin-bottom: 3rem;
 }
 
 /* Reference Card */
 .reference-card {
-    background-color: #1B1F3B; /* Midnight Blue */
+    background-color: #1B1F3B;
+    /* Midnight Blue */
     color: #ffffff;
     border-radius: 12px;
     padding: 2rem;
@@ -47,7 +50,8 @@
 .reference-name {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #0DCAF0; /* Neon Blue */
+    color: #0DCAF0;
+    /* Neon Blue */
     margin-bottom: 0.5rem;
 }
 
@@ -87,6 +91,7 @@
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
