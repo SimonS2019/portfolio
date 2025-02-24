@@ -1,0 +1,215 @@
+{
+    "basicInfo": {
+      "name": "Simon Shen",
+      "profession": "Front-End & Full-Stack Developer",
+      "email": "shentiexiong@gmail.com",
+      "phone": "022 122 0936",
+      "location": "Auckland, New Zealand",
+      "socialLinks": [
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/tiexiong-shen",
+          "icon": "bi bi-linkedin"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/SimonS2019",
+          "icon": "bi bi-github"
+        }
+      ],
+      "aboutMe": {
+        "description": "I'm Simon Shen, a passionate Front-End & Full-Stack Developer with expertise in Angular, .NET Core, and modern web development.",
+        "coreSkills": ["Angular", ".NET Core", "JavaScript", "TypeScript"],
+        "tools": ["Git", "GitHub", "Docker", "Azure"],
+        "deployment": ["Azure DevOps", "Kubernetes", "CI/CD pipelines"],
+        "additionalInfo": "I enjoy creating modern, user-friendly websites and applications. Let's collaborate to build something amazing!",
+        "imagePath": "assets/simon.webp"
+      },
+      "curriculumVitae": {
+        "education": [
+          {
+            "degree": "Bachelor of Computer and Information Science",
+            "institution": "Auckland University of Technology",
+            "date": "Graduated 2019"
+          },
+          {
+            "degree": "Diploma of Information Technology",
+            "institution": "New Zealand School of Education",
+            "date": "Graduated 2018"
+          },
+          {
+            "degree": "Bachelor of Logistics Management",
+            "institution": "Nanfang College of Sun Yat-Sen University",
+            "date": "Graduated 2015"
+          }
+        ],
+        "experiences": [
+          {
+            "title": "Software Engineer",
+            "company": "Shape Technology Ltd",
+            "date": "2022 - Present",
+            "duties": [
+              "Led development of a high-performance SPA (Angular, .NET Core), achieving 80% faster through front-end code refactoring.",
+              "Upgraded Angular from v7 to v16, added new features, and ensured security compliance with OneNZ.",
+              "Expanded backend capabilities, driving full-stack proficiency."
+            ]
+          },
+          {
+            "title": "Web Developer",
+            "company": "Spiritx",
+            "date": "Nov 2019 - 2022",
+            "duties": [
+              "Built customer websites with WordPress, Duda, and Wix.",
+              "Collaborated with designers for user-friendly designs.",
+              "Performed debugging and testing."
+            ]
+          }
+        ],
+        "interests": ["Traveling", "Fishing", "Camping", "Woodworking"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Front-End",
+        "skills": [
+          { "name": "Angular", "level": 90 },
+          { "name": "Angular Material", "level": 90 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "JavaScript", "level": 80 },
+          { "name": "React", "level": 80 },
+          { "name": "Ionic", "level": 80 }
+        ]
+      },
+      {
+        "name": "Back-End & DB",
+        "skills": [
+          { "name": ".NET Core", "level": 85 },
+          { "name": "Google Firebase", "level": 80 },
+          { "name": "Firebase Firestore", "level": 80 },
+          { "name": "MySQL", "level": 80 },
+          { "name": "Node.js", "level": 75 },
+          { "name": "MongoDB", "level": 70 }
+        ]
+      },
+      {
+        "name": "Tools",
+        "skills": [
+          { "name": "Git", "level": 90 },
+          { "name": "GitHub", "level": 90 },
+          { "name": "CI/CD", "level": 80 },
+          { "name": "Azure", "level": 80 },
+          { "name": "VS Code", "level": 80 },
+          { "name": "Docker", "level": 75 }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "IoT platform",
+        "description": "An IoT platform providing efficient technical support and customized solutions for dozens of clients including OneNZ, Christchurch City Council, and Mackenzie District Council. I was responsible for all design and frontend architecture, as well as parts of the backend and database services. Last year, the project passed One NZ's security compliance verification.",
+        "image": "assets/projects/images/p1.webp",
+        "tags": ["Angular", "DotNetCore", "FullStack"],
+        "technologies": ["Angular", "SQL", "FullStack", "DotNetCore"],
+        "demoLink": "https://beta.motiv.io/login?returnUrl=%2Fhome",
+        "repoLink": null,
+        "features": [
+          "Web Application",
+          "Design",
+          "Frontend Architecture",
+          "Backend Services",
+          "Database Services"
+        ]
+      },
+      {
+        "title": "Activity Hub",
+        "description": "Developed an activity hub where users can register, post, join events, and message each other. Deployed on Google Firebase with a fully integrated front and back end.",
+        "image": "assets/projects/images/f1.webp",
+        "tags": ["FullStack", "Firebase", "React"],
+        "technologies": ["Firebase", "React", "Redux", "Firestore"],
+        "demoLink": "https://revents-2023-fe3fe.web.app/",
+        "repoLink": "https://github.com/SimonS2019/revents",
+        "features": [
+          "Responsive Design",
+          "Single Page Application",
+          "multiple login methods"
+        ]
+      },
+      {
+        "title": "Magic Memory",
+        "description": "This is a sample React and Firebase project that includes nearly all essential features, such as TypeScript, React, and deployment on Firebase.",
+        "image": "assets/projects/images/f2.webp",
+        "tags": ["Firebase", "React", "Game"],
+        "technologies": ["Firebase", "React", "TypeScript", "Game"],
+        "demoLink": "https://magic-memory-new.web.app/",
+        "repoLink": "https://github.com/SimonS2019/magic-memory",
+        "features": [
+          "Web Application",
+          "Responsive Design",
+          "Single Page Application"
+        ]
+      },
+      {
+        "title": "Tyre Shop",
+        "description": "Initially started as a simple frontend software while learning Angular unit testing. Later, I got inspired to develop a full-stack application with a database and optimized UI/UX.",
+        "image": "assets/projects/images/m1.webp",
+        "tags": ["FullStack", "MongoDB", "Node", "Angular"],
+        "technologies": ["Angular 11", "Express", "MongoDB", "Bootstrap"],
+        "demoLink": "https://tyre-web.vercel.app/",
+        "repoLink": [
+          "https://github.com/SimonS2019/tyre-web",
+          "https://github.com/SimonS2019/tyre-api"
+        ],
+        "features": [
+          "Web Application",
+          "Login",
+          "Different user levels",
+          "Purchase",
+          "Order",
+          "Admin panel"
+        ]
+      },
+      {
+        "title": "Vertu Equipment",
+        "description": "In 2020, provided a series of services for this company including website design, development, deployment, and database management. The website has undergone multiple iterations since the project ended.",
+        "image": "assets/projects/images/w1.webp",
+        "tags": ["Web Development", "Database Management"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Google Drive",
+          "Duda"
+        ],
+        "demoLink": "https://vertuequipment.co.nz/",
+        "repoLink": null,
+        "features": [
+          "Website Design",
+          "Development",
+          "Deployment",
+          "Database Management"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Steven Dirven",
+        "position": "CTO",
+        "company": "Shape Technology Ltd",
+        "image": "",
+        "content": "Simon has been an exemplary full-stack developer at Shape Technology, leading frontend development, DevOps, and CI/CD pipelines. Skilled in TypeScript, Angular, C#, .NET Core, and MySQL, he excels at maintaining code, implementing features, and documenting best practices. A continuous learner and dedicated team player, Simon is a valuable asset to any development team."
+      },
+      {
+        "name": "Luke Wang",
+        "position": "Software Engineer",
+        "company": "Shape Technology Ltd",
+        "image": "",
+        "content": "Collaborating with Simon has been a pleasure with his excellent communication and attention to detail. Alongside being a wonderful person, Simon consistently delivers front-end features that solve key workflow issues within our team. The usability and quality of his work has only improved during the time we worked together. I am confident that Simon's remarkable work ethic will continue throughout his career."
+      },
+      {
+        "name": "Caleb Waddell",
+        "position": "Former Head of Research And Development at Shape Technology Ltd",
+        "company": "",
+        "image": "",
+        "content": "Simon Shen, a former Front-End Developer at Shape Technology, showcased exceptional technical skills, creativity, and professionalism. His mastery of modern front-end technologies and proactive problem-solving made him an asset. Highly recommended for any front-end development role."
+      }
+    ]
+  }
